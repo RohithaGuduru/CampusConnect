@@ -5,7 +5,7 @@ from app.core.config import settings
 from app.api.v1.api import api_router
 from app.db import init_db
 
-
+# hehehehe
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Initialize SQLite database with seed schema and sample records
